@@ -6,6 +6,6 @@ public class App {
         al20231124 test = new al20231124();
 
         //test.question1('a', 'z');
-        System.out.println(test.question2("level"));
+        System.out.println(test.question2("leel"));
     }
 }

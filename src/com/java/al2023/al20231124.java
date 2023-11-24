@@ -43,21 +43,22 @@ public class al20231124 {
     
     /*
      * 문자열이 대칭이면 true, 아니면 false
-     * ex) str = "level"
+     * ex) str = "level", "EVVE"
      */
     public boolean question2(String str){
         boolean answer = false;
-        char[] chrArr = str.toCharArray();
-        for(int i=0; i< chrArr.length/2; i++){            
-            System.out.println(chrArr[chrArr.length-i-1]);
-            if(chrArr[i] == chrArr[chrArr.length-i-1]){
-                answer = true;
-            }else{
-                answer = false;
-                break;
-            }
+        int strHalf = str.length()%2 ==0?str.length()/2 : str.length()/2+1;     
+        String revStr = "";        
+
+        for(int i=str.length()/2-1; i >= 0; i--){                        
+            revStr += str.charAt(i);
         }
         
+        if(revStr.equals(str.substring(strHalf))){
+            answer = true;
+        }else{
+            answer = false;
+        }
         return answer;
     }
 }
