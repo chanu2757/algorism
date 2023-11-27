@@ -1,5 +1,7 @@
 import com.java.al2023.al20231123;
 import com.java.al2023.al20231124;
+import com.java.al2023.al20231125;
+import com.java.al2023.al20231126;
 
 public class App {
     public static void main(String[] args) throws Exception {
