@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class al20231129 {
     
     /*
+     * 푸드 파이트 대회
      * food의 갯수와 순서가 대칭되도록 하는 문자열 반환하기
      * food의 index
      * 0 = 0 가운데 물
@@ -28,6 +29,7 @@ public class al20231129 {
         return answer;
     }
     /*
+     * 콜라 문제
      * 콜라 a 병을 반납하면
      * b병 만큼 콜라를 주고
      * 내가 처음 n개의 빈병을 반납 했을 때 받을 수 있는 콜라 수

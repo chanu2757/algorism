@@ -11,9 +11,6 @@ public class al20231124 {
      * aa
      */
     public void question1(int s, int e){
-        //System.out.println(s); 97
-        //System.out.println(e); 106
-
         //aa가 나오려면 어떻게 해야할까
         // 97 + 97
         // 97 98 98 97
