@@ -1,5 +1,7 @@
 package com.java.bangtong;
 
+// class가 두개인 성적처리 프로그램
+// main 함수를 따로 사용하는 일반적인 경우
 class Grade {
     int e;
     int m;
@@ -10,7 +12,7 @@ class Grade {
 }
 
 public class main {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         System.out.println("Hello, Java Application!");
         
         Grade g1, g2;
