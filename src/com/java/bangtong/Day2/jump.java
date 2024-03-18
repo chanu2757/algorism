@@ -1,4 +1,4 @@
-package com.java.bangtong;
+package com.java.bangtong.Day2;
 
 public class jump {
     

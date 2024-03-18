@@ -1,4 +1,4 @@
-package com.java.bangtong;
+package com.java.bangtong.Day3;
 
 class Circle{
     private double r;

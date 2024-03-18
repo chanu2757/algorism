@@ -1,4 +1,4 @@
-package com.java.bangtong;
+package com.java.bangtong.Day1;
 
 // class가 두개인 성적처리 프로그램
 // main 함수를 따로 사용하는 일반적인 경우

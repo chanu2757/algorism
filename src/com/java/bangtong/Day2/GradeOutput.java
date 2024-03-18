@@ -1,4 +1,4 @@
-package com.java.bangtong;
+package com.java.bangtong.Day2;
 
 // Class가 하나인 성적처리 프로그램
 public class GradeOutput {
